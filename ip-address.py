@@ -1,4 +1,3 @@
-#!/opt/homebrew/bin/python3.9
 import ipaddress
 
 netip0 = '172.16.98.0/24'
