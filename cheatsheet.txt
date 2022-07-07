@@ -1,0 +1,33 @@
+Docker: docker
+Docker: docker container --help
+Docker: docker container ls
+Docker: docker container ls -a
+Docker: docker container run -it container ubuntu bash
+Docker: docker container stop test-nginx
+Docker: docker container inspect e67f81076c92
+Docker: docker container inspect netbox-docker_netbox_1
+Docker: docker container run --name test-nginx -p 80:80 -d nginx - Test with: http://0.0.0.0:80
+Docker: docker-compose pull
+Docker: docker-compose up 
+Docker: echo "http://$(docker-compose port nginx 8080)/"
+Docker: cd netbox-docker
+Docker: docker container port test-nginx
+Docker: docker container rm test-nginx
+Docker: docker image ls 
+Docker: docker image history b5b2b906b481
+Docker: docker image inspect b5b2b906b481
+Docker: docker image rm
+Docker: docker image pull
+Docker: docker login
+Docker: docker system prune
+Docker: docker --config ~/netbox-docker/ ps
+Docker: docker images
+Docker: docker ps -a 
+Docker: docker start 
+Docker: docker stop ceos
+Docker: docker network create net1
+Docker: docker network connect net1 ceos
+Docker: docker network rm net1
+Docker: docker container rm ceos
+Docker: docker exec -it Cli
+Docker: docker create
